@@ -12,5 +12,3 @@ var Concessionaria = /** @class */ (function () {
     };
     return Concessionaria;
 }());
-var concessionaria = new Concessionaria('praia formosa', [new Carro('fiat', 4), new Carro('fusca', 3)]);
-console.log(concessionaria);
