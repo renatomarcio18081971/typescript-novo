@@ -17,7 +17,3 @@ var Carro = /** @class */ (function () {
     };
     return Carro;
 }());
-var carro = new Carro("fusca", 4);
-console.log(carro);
-carro.Acelerar();
-console.log(carro);
