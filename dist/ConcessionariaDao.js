@@ -15,7 +15,7 @@ var ConcessionariaDao = /** @class */ (function () {
         console.log('excluir');
     };
     ConcessionariaDao.prototype.obter = function (id) {
-        console.log('obter');
+        return new Concessionaria_1.default('', []);
     };
     ConcessionariaDao.prototype.obterTodos = function () {
         return [new Concessionaria_1.default('', [])];

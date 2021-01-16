@@ -1,7 +1,7 @@
-export default interface IDao {
+export default interface IDao<T> {
     nomeTabela: string
-    incluir(objecto: any): void
+    incluir(objecto: T): void
     excluir(id: number): void
-    obter(id: number): any
-    obterTodos(): [any]
+    obter(id: number): T
+    obterTodos(): [T]
 }

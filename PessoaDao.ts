@@ -1,7 +1,7 @@
 import IDao from "./IDao";
 import Pessoa from "./Pessoa";
 
-export default class PessoaDao implements IDao{
+export default class PessoaDao implements IDao<Pessoa> {
 
     nomeTabela: string = 'tb_pessoa';
 
@@ -14,7 +14,7 @@ export default class PessoaDao implements IDao{
     }
     
     public obter(id: number) {
-        console.log('obter')
+        return new Pessoa('', '')
     }
     
     public obterTodos(): [any] {

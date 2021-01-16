@@ -1,7 +1,7 @@
 import Concessionaria from "./Concessionaria";
 import IDao from "./IDao";
 
-export default class ConcessionariaDao implements IDao {
+export default class ConcessionariaDao implements IDao<Concessionaria> {
     
     nomeTabela: string = 'tb_concessionaria';
 
@@ -14,7 +14,7 @@ export default class ConcessionariaDao implements IDao {
     }
 
     public obter(id: number) {
-        console.log('obter')
+        return new Concessionaria('', [])
     }
 
     public obterTodos(): [Concessionaria] {
