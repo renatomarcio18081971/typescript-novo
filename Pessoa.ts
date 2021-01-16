@@ -1,4 +1,4 @@
-class Pessoa {
+export default class Pessoa {
     private nome: string
     private carroPreferido: string
     private carro: any
@@ -24,3 +24,5 @@ class Pessoa {
         return this.carro
     }
 }
+
+export let valorPadrao: string = '10'

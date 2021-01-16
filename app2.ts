@@ -1,3 +1,6 @@
+import Pessoa, { valorPadrao as vlor } from './Pessoa'
+import Carro  from './Carro'
+import Concessionaria from './Concessionaria'
 
 let cliente = new Pessoa('renato', 'fiat')
 
@@ -10,3 +13,5 @@ concessionaria.ObterListaDeCarrosDisponiveis().map((carro: Carro) => {
         console.log('cliente comprou')
     }
 })
+
+console.log(vlor);

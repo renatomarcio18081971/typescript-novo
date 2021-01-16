@@ -1,4 +1,6 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.valorPadrao = void 0;
 var Pessoa = /** @class */ (function () {
     function Pessoa(nome, carroPreferido) {
         this.nome = nome;
@@ -18,3 +20,5 @@ var Pessoa = /** @class */ (function () {
     };
     return Pessoa;
 }());
+exports.default = Pessoa;
+exports.valorPadrao = '10';
